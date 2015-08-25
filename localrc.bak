@@ -1,0 +1,10 @@
+RECLONE=yes
+ENABLED_SERVICES=key,g-api,g-reg,n-api,n-crt,n-obj,n-cpu,n-net,n-cond,cinder,c-sch,c-api,c-vol,n-sch,n-cauth,horizon,mysql,rabbit
+SERVICE_TOKEN=openstack
+ADMIN_PASSWORD=openstack
+MYSQL_PASSWORD=openstack
+RABBIT_PASSWORD=openstack
+SERVICE_PASSWORD=openstack
+LOGFILE=/opt/stack/logs/stack.sh.log
+LIBS_FROM_GIT=python-keystoneclient,python-openstackclient
+
